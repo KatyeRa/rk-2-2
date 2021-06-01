@@ -20,9 +20,23 @@
 	justify-content: center;
 }
 .nav{
+    display: flex;
+    align-self: center;
     width: 100%;
     height: 15vh;
     background-color: #FF6B6B;
+}
+
+.nav__png:hover{
+    animation: logoRotation 1s normal ease-in-out;
+}
+@keyframes logoRotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .nav__ul{
@@ -61,8 +75,6 @@
 .light{
     background-color: #FFF;
     width: 100px;
-    border-color: #fff;
-    width: 160px;
 }
 .light a{
     color: #000;
@@ -85,8 +97,7 @@
    width: 30%;
    padding: 30px;
    align-self: start;
-	justify-content: center;
-
+   justify-content: center;
 }
 .recipes{
    border: #FF6B6B;
@@ -111,6 +122,42 @@ h4{
    font-size: 16px;
 }
 
+@media (max-width: 475px) {
+    .nav{
+        height: 5vh;
+    }
+    .nav__item a{
+        font-size: 14px;
+    }
+    .main__title-h1{
+        font-size: 18px;
+    }
+    .main__title-h2{
+        font-size: 15px;
+    }
+    .main__img{
+        width: 150px;
+        height: 75px;
+    }
+    .main__recipes{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main__recipes-element{
+        display: flex;
+        width: 350px;
+        padding: 15px;
+        justify-content: center;
+     }
+    h3{
+        font-size: 15px;
+    }
+    h4{
+        font-size: 13px;
+    }
+
+}
 
 /*footer*/
 
