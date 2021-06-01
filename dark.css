@@ -1,0 +1,40 @@
+body{
+    background-color: darkgray;
+}
+
+
+.nav{
+    width: 100%;
+    height: 15vh;
+    background-color: #FF6B6B;
+}
+
+.nav__ul{
+    width: 100%;
+}
+
+.nav__item a{
+    font-size: 20px;
+    font-family: "Roboto";
+    color: black;
+    padding: auto;
+    margin-right: 40px;
+}
+
+.nav__item a:hover{
+    color: #fff;
+    transition: 1.5s;
+}
+.nav__ul li{
+    display: inline;
+}
+
+.dark{
+    background-color: #000;
+    width: 100px;
+    border-color: #000;
+    width: 160px;
+}
+.dark a{
+    color: #fff;
+}
