@@ -16,13 +16,13 @@ body{
 .nav__item a{
     font-size: 20px;
     font-family: "Roboto";
-    color: black;
+    color:#fff;
     padding: auto;
     margin-right: 40px;
 }
 
 .nav__item a:hover{
-    color: #fff;
+    color: #FF6B6B;
     transition: 1.5s;
 }
 .nav__ul li{
@@ -37,4 +37,18 @@ body{
 }
 .dark a{
     color: #fff;
+}
+
+.nav-button{
+    background: #000;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.nav-button:hover{
+    color: #fff;
+    transition: 1s;
+}
+.nav-button a:hover{
+    background: #555;
+    transition: 1s;
 }
