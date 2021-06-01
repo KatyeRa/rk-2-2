@@ -7,6 +7,12 @@
     box-sizing: border-box;
 }
 
+.body-dark{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+
 /*nav*/
 
 .flex {
@@ -85,7 +91,6 @@
 /*main*/
 
 .main__title{
-    color: black;
     text-align: center;
     font-family: "Roboto";
     padding: 20px;
